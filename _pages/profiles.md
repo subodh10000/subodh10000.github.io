@@ -28,10 +28,10 @@ profiles:
     more_info: >
       <p>Newark, NJ</p>
   - align: left
-    image: leosk.jpeg
-    content: leo.md
+    image: photography.png
+    content: photo.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Pokhara, Nepal</p>
+      <p>Instagram: sk_clicks_01 </p>
       
 ---

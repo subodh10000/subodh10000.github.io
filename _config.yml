@@ -180,6 +180,7 @@ exclude:
   - _pages/publications.md
   - _pages/teaching.md
   - _pages/books.md
+  - _pages/dropdown.md
   - blog.md
   - CUSTOMIZE.md
   - Dockerfile
