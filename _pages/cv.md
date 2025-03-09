@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: Resume
+title: resume
 nav: true
 nav_order: 5
 cv_pdf: Resume_Subodh_Kathayat_s-2.pdf

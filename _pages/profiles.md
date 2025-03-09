@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: Hobbies
+title: hobbies
 description: With the flow of love and peace. 
 nav: true
 nav_order: 7
@@ -15,6 +15,18 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Kailali, Nepal</p>
+  - align: left
+    image: leosk.jpeg
+    content: leo.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Pokhara, Nepal</p>
+  - align: right
+    image: badminton.jpeg
+    content: aashakapaila.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Newark, NJ</p>
   - align: left
     image: leosk.jpeg
     content: leo.md

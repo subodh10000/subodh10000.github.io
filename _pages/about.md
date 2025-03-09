@@ -25,7 +25,9 @@ social: true # includes social icons at the bottom of the page
   #limit: 3 # leave blank to include all the blog posts
 ---
 
-Namaste, My name is Subodh Kathayat. You can also call me SK. I’m a tech enthusiast and athlete, always looking to learn and push myself. My journey into tech started with a love for problem-solving, which led me to create [Neptou—a tourism](https://www.tiktok.com/@kantipurtvhd/video/7179143375092796673) startup that helps travelers discover Nepal’s hidden gems while supporting local communities. 
+Namaste, My name is Subodh Kathayat from Nepal. I go to **New Jersey Institute of Technology** for my undergraduate **computer science** study.  
+
+I’m a tech enthusiast and athlete, always looking to learn and push myself. My journey into tech started with a love for problem-solving, which led me to create [Neptou—a tourism](https://www.tiktok.com/@kantipurtvhd/video/7179143375092796673) startup that helps travelers discover Nepal’s hidden gems while supporting local communities. 
 
 When I’m not working on tech projects, I’m probably out snapping photos with my Sony A7III. Check out my work [here!](https://www.instagram.com/sk_clicks_01/)
 
