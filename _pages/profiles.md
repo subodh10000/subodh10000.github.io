@@ -32,6 +32,6 @@ profiles:
     content: photo.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Instagram: sk_clicks_01 </p>
+      <p> </p>
       
 ---
