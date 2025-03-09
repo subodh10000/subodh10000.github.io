@@ -23,7 +23,7 @@ profiles:
       <p>Pokhara, Nepal</p>
   - align: right
     image: badminton.jpeg
-    content: aashakapaila.md
+    content: badmin.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Newark, NJ</p>
