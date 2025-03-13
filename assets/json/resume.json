@@ -105,7 +105,7 @@
 
   "skills": [
     {
-      "name": "IOS Development",
+      "name": "Mobile App Development",
       "level": "Master",
       "icon": "fa-solid fa-mobile",
       "keywords": [
@@ -114,7 +114,8 @@
         "SwiftUI",
         "UIKit",
         "AWS",
-        "Figma"
+        "Figma",
+        "ReactNative"
       ]
     },
 
