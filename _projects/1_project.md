@@ -28,34 +28,6 @@ related_publications: false
 <div class="caption">
         You can generate chords and watch the octate with visual demonstration. 
 </div>
-<div class="video-container">
-    <iframe 
-        src="https://www.youtube.com/embed/tuglMs9hp8s?si=_hVtTf2wowng0BK2" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
-</div>
-
-<style>
-.video-container {
-    position: relative;
-    width: 90%; /* Adjust width as needed */
-    max-width: 950px; /* Prevent excessive stretching */
-    margin: 20px auto;
-    padding: 10px;
-    border: 5px solid #a36a00; /* Steampunk-style border */
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.7); /* Dark background */
-}
-
-.video-container iframe {
-    width: 100%;
-    height: 550px; /* Adjust height as needed */
-    border-radius: 5px;
-}
-</style>
-
 
 Lets look at the features of this app: 
 - brings you joy
