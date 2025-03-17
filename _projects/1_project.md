@@ -28,32 +28,34 @@ related_publications: false
 <div class="caption">
         You can generate chords and watch the octate with visual demonstration. 
 </div>
-
-You can also put SegularS
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<div class="video-container">
+    <iframe 
+        src="https://www.youtube.com/embed/tuglMs9hp8s?si=_hVtTf2wowng0BK2" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
 </div>
 
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-{% raw %}
+<style>
+.video-container {
+    position: relative;
+    width: 90%; /* Adjust width as needed */
+    max-width: 950px; /* Prevent excessive stretching */
+    margin: 20px auto;
+    padding: 10px;
+    border: 5px solid #a36a00; /* Steampunk-style border */
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7); /* Dark background */
+}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+.video-container iframe {
+    width: 100%;
+    height: 550px; /* Adjust height as needed */
+    border-radius: 5px;
+}
+</style>
 
-{% endraw %}
+
+Lets look at the features of this app: 
+- brings you joy
