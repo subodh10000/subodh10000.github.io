@@ -114,8 +114,8 @@
         "SwiftUI",
         "UIKit",
         "AWS",
-        "Figma",
-        "ReactNative"
+        "Figma"
+        
       ]
     },
 
@@ -134,13 +134,12 @@
     },
 
     {
-      "name": "Programming",
+      "name": "Programming (Proficient)",
       "level": "Master",
       "icon": "fa-solid fa-code",
       "keywords": [
         "Python",
-        "C++",
-        "Golang"
+        "C++"
       ]
     },
 
@@ -150,8 +149,8 @@
       "icon": "fa-solid fa-music",
       "keywords": [
         "Badminton",
-        "Camera",
-        "Guitar"
+        "Camera"
+        
       ]
     }
   ],
