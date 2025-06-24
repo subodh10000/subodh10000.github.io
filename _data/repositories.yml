@@ -4,7 +4,11 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - subodh10000/GymTrackerApp
+  - subodh10000/Momentum
+  - subodh10000/JarvisAI
   - subodh10000/Fullstack
   - subodh10000/LoFi_Steampunk-main-2
-  - subodh10000/Jarvis
+
+
   
