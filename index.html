@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subodh Kathayat | Full Stack iOS Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="theme-toggle">
+        <button id="themeToggle" class="toggle-btn">
+            <span class="sun-icon">☀️</span>
+            <span class="moon-icon">🌙</span>
+        </button>
+    </div>
+
+    <!-- iPhone Device Frame -->
+    <div class="iphone-frame">
+        <!-- Notch -->
+        <div class="notch"></div>
+
+        <!-- Status Bar -->
+        <div class="status-bar">
+            <div class="status-left">
+                <span class="time" id="statusTime">9:41</span>
+            </div>
+            <div class="status-right">
+                <span class="signal">📶</span>
+                <span class="wifi">📡</span>
+                <span class="battery">🔋</span>
+            </div>
+        </div>
+
+        <!-- App Container -->
+        <div class="app-container">
+
+            <!-- Home Screen -->
+            <div class="screen active" id="homeScreen">
+                <!-- Profile Card with Welcome -->
+                <div class="profile-section">
+                    <div class="welcome-badge">
+                        <span class="wave">👋</span>
+                        <span class="welcome-text">Welcome!</span>
+                    </div>
+
+                    <div class="profile-card glass-card">
+                        <div class="profile-avatar">
+                            <div class="avatar-circle">
+                                <span class="avatar-emoji">👨‍💻</span>
+                            </div>
+                            <div class="status-badge online"></div>
+                        </div>
+                        <h1 class="profile-name">Subodh Kathayat</h1>
+                        <p class="profile-tagline">Building the future, one app at a time</p>
+                        <p class="profile-subtitle">Full Stack iOS Engineer • CS @ NJIT</p>
+
+                        <div class="achievement-badges">
+                            <div class="badge-item">
+                                <span class="badge-emoji">🏆</span>
+                                <span class="badge-text">Winner</span>
+                            </div>
+                            <div class="badge-item">
+                                <span class="badge-emoji">⭐</span>
+                                <span class="badge-text">Top 7/400</span>
+                            </div>
+                            <div class="badge-item">
+                                <span class="badge-emoji">📱</span>
+                                <span class="badge-text">1K+ Users</span>
+                            </div>
+                        </div>
+
+                        <div class="profile-stats">
+                            <div class="stat">
+                                <div class="stat-value">15+</div>
+                                <div class="stat-label">Projects</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat">
+                                <div class="stat-value">1000+</div>
+                                <div class="stat-label">Active Users</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat">
+                                <div class="stat-value">4</div>
+                                <div class="stat-label">Hackathons Won</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="quick-actions">
+                    <button class="action-btn" data-screen="aboutScreen">
+                        <span class="action-icon">👤</span>
+                        <span class="action-label">About</span>
+                    </button>
+                    <button class="action-btn" data-screen="skillsScreen">
+                        <span class="action-icon">⚡</span>
+                        <span class="action-label">Skills</span>
+                    </button>
+                    <button class="action-btn" data-screen="projectsScreen">
+                        <span class="action-icon">📱</span>
+                        <span class="action-label">Projects</span>
+                    </button>
+                    <button class="action-btn" data-screen="contactScreen">
+                        <span class="action-icon">✉️</span>
+                        <span class="action-label">Contact</span>
+                    </button>
+                </div>
+
+                <!-- Info Cards -->
+                <div class="info-section">
+                    <div class="info-card glass-card">
+                        <div class="info-header">
+                            <span class="info-icon">🎓</span>
+                            <h3>Education</h3>
+                        </div>
+                        <p class="info-text">New Jersey Institute of Technology</p>
+                        <p class="info-subtext">B.S. Computer Science • May 2027</p>
+                    </div>
+
+                    <div class="info-card glass-card">
+                        <div class="info-header">
+                            <span class="info-icon">💼</span>
+                            <h3>Focus</h3>
+                        </div>
+                        <p class="info-text">iOS Development</p>
+                        <p class="info-subtext">Swift • SwiftUI • UIKit</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Screen -->
+            <div class="screen" id="aboutScreen">
+                <div class="nav-bar">
+                    <button class="nav-back">
+                        <span class="chevron-left">‹</span>
+                        <span>Back</span>
+                    </button>
+                    <div class="nav-title">About Me</div>
+                    <div class="nav-spacer"></div>
+                </div>
+
+                <div class="screen-content">
+                    <div class="ios-list">
+                        <div class="list-section">
+                            <div class="list-header">WHO I AM</div>
+                            <div class="about-intro-card">
+                                <div class="intro-icon">🚀</div>
+                                <p class="about-text">Computer Science student at NJIT with a passion for creating iOS applications that solve real problems. My work has impacted <strong>1,000+ users</strong> across award-winning projects at major hackathons.</p>
+                            </div>
+                        </div>
+
+                        <div class="list-section">
+                            <div class="list-header">ACHIEVEMENTS</div>
+                            <div class="achievement-grid">
+                                <div class="achievement-card">
+                                    <div class="achievement-icon">🏆</div>
+                                    <div class="achievement-title">National Winner</div>
+                                    <div class="achievement-desc">Top 7/400+ teams</div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement-icon">📱</div>
+                                    <div class="achievement-title">1K+ Downloads</div>
+                                    <div class="achievement-desc">#1 in Nepal</div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement-icon">🎯</div>
+                                    <div class="achievement-title">4 Hackathons</div>
+                                    <div class="achievement-desc">Multiple wins</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list-section">
+                            <div class="list-header">EXPERIENCE TIMELINE</div>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot active"></div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-header">
+                                            <span class="timeline-emoji">💼</span>
+                                            <span class="timeline-badge">Current</span>
+                                        </div>
+                                        <div class="timeline-title">Data Management Intern</div>
+                                        <div class="timeline-company">NJIT</div>
+                                        <div class="timeline-date">Feb 2024 - Present</div>
+                                        <div class="timeline-desc">Built Python + MySQL pipeline automating analytics for 1,500+ student records</div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-header">
+                                            <span class="timeline-emoji">🚀</span>
+                                        </div>
+                                        <div class="timeline-title">Software Engineer Fellow</div>
+                                        <div class="timeline-company">Headstarter AI</div>
+                                        <div class="timeline-date">Jun - Aug 2024</div>
+                                        <div class="timeline-desc">Led 4-person team, developed AI apps serving 1,000+ users</div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-header">
+                                            <span class="timeline-emoji">👥</span>
+                                        </div>
+                                        <div class="timeline-title">President</div>
+                                        <div class="timeline-company">Nepali Student Association</div>
+                                        <div class="timeline-date">Feb 2025 - Nov 2025</div>
+                                        <div class="timeline-desc">Directed 7-member board, organized 15+ events for 800+ students</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Screen -->
+            <div class="screen" id="skillsScreen">
+                <div class="nav-bar">
+                    <button class="nav-back">
+                        <span class="chevron-left">‹</span>
+                        <span>Back</span>
+                    </button>
+                    <div class="nav-title">Skills</div>
+                    <div class="nav-spacer"></div>
+                </div>
+
+                <div class="screen-content">
+                    <div class="ios-list">
+                        <div class="list-section">
+                            <div class="list-header">iOS DEVELOPMENT</div>
+                            <div class="list-item">
+                                <span class="list-emoji">🔷</span>
+                                <div class="list-content">
+                                    <div class="list-title">Swift</div>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="list-emoji">📱</span>
+                                <div class="list-content">
+                                    <div class="list-title">SwiftUI</div>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="list-emoji">🎨</span>
+                                <div class="list-content">
+                                    <div class="list-title">UIKit</div>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="list-emoji">💾</span>
+                                <div class="list-content">
+                                    <div class="list-title">Core Data & Firebase</div>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" style="width: 92%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="list-emoji">🗺️</span>
+                                <div class="list-content">
+                                    <div class="list-title">MapKit & CoreLocation</div>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list-section">
+                            <div class="list-header">BACKEND & CLOUD</div>
+                            <div class="list-item">
+                                <span class="list-emoji">🐍</span>
+                                <div class="list-content">
+                                    <div class="list-title">Python</div>
+                                    <div class="list-subtitle">Flask, FastAPI, Django</div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="list-emoji">🔥</span>
+                                <div class="list-content">
+                                    <div class="list-title">Firebase</div>
+                                    <div class="list-subtitle">Cloud Functions, Firestore</div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="list-emoji">☁️</span>
+                                <div class="list-content">
+                                    <div class="list-title">AWS</div>
+                                    <div class="list-subtitle">EC2, S3, Lambda</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list-section">
+                            <div class="list-header">AI & DATA</div>
+                            <div class="list-item">
+                                <span class="list-emoji">🤖</span>
+                                <div class="list-content">
+                                    <div class="list-title">AI APIs</div>
+                                    <div class="list-subtitle">Google Gemini, Claude API</div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="list-emoji">💽</span>
+                                <div class="list-content">
+                                    <div class="list-title">Databases</div>
+                                    <div class="list-subtitle">MySQL, PostgreSQL, SQL</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list-section">
+                            <div class="list-header">LANGUAGES & TOOLS</div>
+                            <div class="skill-tags-grid">
+                                <span class="skill-tag">Swift</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">HTML/CSS</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Xcode</span>
+                                <span class="skill-tag">TestFlight</span>
+                                <span class="skill-tag">Postman</span>
+                                <span class="skill-tag">CI/CD</span>
+                                <span class="skill-tag">REST APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Screen -->
+            <div class="screen" id="projectsScreen">
+                <div class="nav-bar">
+                    <button class="nav-back">
+                        <span class="chevron-left">‹</span>
+                        <span>Back</span>
+                    </button>
+                    <div class="nav-title">Projects</div>
+                    <div class="nav-spacer"></div>
+                </div>
+
+                <div class="screen-content">
+                    <!-- Featured Project -->
+                    <div class="featured-app">
+                        <div class="featured-badge">🏆 NATIONAL HACKATHON WINNER</div>
+                        <div class="app-card large">
+                            <div class="app-icon gradient-1">
+                                <span>🗺️</span>
+                            </div>
+                            <div class="app-info">
+                                <h3 class="app-name">Neptou</h3>
+                                <p class="app-subtitle">Smart Tourism Platform</p>
+                                <div class="app-tags">
+                                    <span class="tag">SwiftUI</span>
+                                    <span class="tag">FastAPI</span>
+                                    <span class="tag">Claude AI</span>
+                                    <span class="tag">RAG</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-emoji">📥</span>
+                                        <span class="stat-text">1,000+ Downloads</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-emoji">🏅</span>
+                                        <span class="stat-text">Top 7/400</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-emoji">⭐</span>
+                                        <span class="stat-text">#1 Nepal</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="app-description">Top 7 among 400+ teams at Nepal's National Hackathon. Full-stack iOS tourism platform with #1 ranking in Nepal category. Features AI chat, trip planning, and location-based discovery with RAG pipeline trained on 120+ local data points.</p>
+                        <div class="app-screenshots">
+                            <div class="screenshot gradient-bg-1">🤖</div>
+                            <div class="screenshot gradient-bg-2">📍</div>
+                            <div class="screenshot gradient-bg-3">🗺️</div>
+                        </div>
+                    </div>
+
+                    <!-- More Projects -->
+                    <div class="list-header" style="margin-top: 20px;">MORE PROJECTS</div>
+                    <div class="projects-list">
+                        <div class="app-card">
+                            <div class="project-badge hackathon-badge">🎓 Hack Princeton</div>
+                            <div class="app-icon gradient-2">
+                                <span>💪</span>
+                            </div>
+                            <div class="app-info">
+                                <h3 class="app-name">Atomica</h3>
+                                <p class="app-subtitle">AI Habit-Building App</p>
+                                <div class="app-tags">
+                                    <span class="tag">SwiftUI</span>
+                                    <span class="tag">Flask</span>
+                                    <span class="tag">Gemini API</span>
+                                </div>
+                                <p class="project-description">AI-powered habit tracker with intelligent recommendations and streak management</p>
+                            </div>
+                        </div>
+
+                        <div class="app-card">
+                            <div class="project-badge hackathon-badge">🎓 DivHacks Columbia</div>
+                            <div class="app-icon gradient-3">
+                                <span>🏋️</span>
+                            </div>
+                            <div class="app-info">
+                                <h3 class="app-name">GYM Tracker</h3>
+                                <p class="app-subtitle">Fitness Tracking Platform</p>
+                                <div class="app-tags">
+                                    <span class="tag">SwiftUI</span>
+                                    <span class="tag">Firebase</span>
+                                    <span class="tag">Gemini API</span>
+                                </div>
+                                <p class="project-description">Complete fitness solution with AI workout planning and progress tracking</p>
+                            </div>
+                        </div>
+
+                        <div class="app-card">
+                            <div class="project-badge winner-badge">🥉 3rd Place</div>
+                            <div class="app-icon gradient-4">
+                                <span>🛡️</span>
+                            </div>
+                            <div class="app-info">
+                                <h3 class="app-name">Caughtin4KNJIT</h3>
+                                <p class="app-subtitle">Scam Detection Extension</p>
+                                <div class="app-tags">
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">Claude API</span>
+                                    <span class="tag">Chrome Extension</span>
+                                </div>
+                                <p class="project-description">Real-time scam detection using AI to protect users from phishing and fraud</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Screen -->
+            <div class="screen" id="contactScreen">
+                <div class="nav-bar">
+                    <button class="nav-back">
+                        <span class="chevron-left">‹</span>
+                        <span>Back</span>
+                    </button>
+                    <div class="nav-title">Contact</div>
+                    <div class="nav-spacer"></div>
+                </div>
+
+                <div class="screen-content">
+                    <!-- Contact Hero -->
+                    <div class="contact-hero">
+                        <div class="contact-avatar">
+                            <div class="avatar-circle">
+                                <span>👨‍💻</span>
+                                <div class="status-pulse"></div>
+                            </div>
+                        </div>
+                        <h2>Let's Connect</h2>
+                        <p>Open to discussing iOS development, internships, and collaboration opportunities.</p>
+                        <div class="availability-badge">
+                            <span class="pulse-dot"></span>
+                            <span>Available for opportunities</span>
+                        </div>
+                    </div>
+
+                    <div class="ios-list">
+                        <div class="list-section">
+                            <div class="list-header">CONTACT METHODS</div>
+                            <a href="mailto:kathayatsubodh@gmail.com" class="list-item interactive">
+                                <div class="list-icon email-icon">📧</div>
+                                <div class="list-content">
+                                    <div class="list-title">Email</div>
+                                    <div class="list-subtitle">kathayatsubodh@gmail.com</div>
+                                </div>
+                                <span class="chevron-right">›</span>
+                            </a>
+                            <a href="tel:+18622145213" class="list-item interactive">
+                                <div class="list-icon email-icon">📱</div>
+                                <div class="list-content">
+                                    <div class="list-title">Phone</div>
+                                    <div class="list-subtitle">862-214-5213</div>
+                                </div>
+                                <span class="chevron-right">›</span>
+                            </a>
+                            <a href="https://github.com/subodh10000" target="_blank" class="list-item interactive">
+                                <div class="list-icon github-icon">💻</div>
+                                <div class="list-content">
+                                    <div class="list-title">GitHub</div>
+                                    <div class="list-subtitle">@subodh10000</div>
+                                </div>
+                                <span class="chevron-right">›</span>
+                            </a>
+                            <a href="https://linkedin.com/in/subodhkathayat" target="_blank" class="list-item interactive">
+                                <div class="list-icon linkedin-icon">💼</div>
+                                <div class="list-content">
+                                    <div class="list-title">LinkedIn</div>
+                                    <div class="list-subtitle">Subodh Kathayat</div>
+                                </div>
+                                <span class="chevron-right">›</span>
+                            </a>
+                        </div>
+
+                        <div class="list-section">
+                            <div class="list-header">LOCATION</div>
+                            <div class="list-item">
+                                <div class="list-icon email-icon">📍</div>
+                                <div class="list-content">
+                                    <div class="list-title">Newark, New Jersey</div>
+                                    <div class="list-subtitle">Available for opportunities in NY/NJ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Connect Cards -->
+                    <div class="quick-connect">
+                        <div class="list-header">QUICK LINKS</div>
+                        <div class="connect-grid">
+                            <a href="https://github.com/subodh10000" target="_blank" class="connect-card github-card">
+                                <div class="connect-icon">💻</div>
+                                <div class="connect-label">GitHub</div>
+                            </a>
+                            <a href="https://linkedin.com/in/subodhkathayat" target="_blank" class="connect-card linkedin-card">
+                                <div class="connect-icon">💼</div>
+                                <div class="connect-label">LinkedIn</div>
+                            </a>
+                            <a href="mailto:kathayatsubodh@gmail.com" class="connect-card email-card">
+                                <div class="connect-icon">📧</div>
+                                <div class="connect-label">Email</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="contact-footer">
+                        <p class="footer-text">Made with ❤️ using Swift principles</p>
+                        <p class="footer-subtext">Designed with Apple's Human Interface Guidelines</p>
+                        <p class="footer-subtext">© 2024 Subodh Kathayat</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Tab Bar -->
+        <div class="tab-bar">
+            <button class="tab-item active" data-screen="homeScreen">
+                <span class="tab-icon">🏠</span>
+                <span class="tab-label">Home</span>
+            </button>
+            <button class="tab-item" data-screen="aboutScreen">
+                <span class="tab-icon">👤</span>
+                <span class="tab-label">About</span>
+            </button>
+            <button class="tab-item" data-screen="skillsScreen">
+                <span class="tab-icon">⚡</span>
+                <span class="tab-label">Skills</span>
+            </button>
+            <button class="tab-item" data-screen="projectsScreen">
+                <span class="tab-icon">📱</span>
+                <span class="tab-label">Projects</span>
+            </button>
+            <button class="tab-item" data-screen="contactScreen">
+                <span class="tab-icon">✉️</span>
+                <span class="tab-label">Contact</span>
+            </button>
+        </div>
+
+        <!-- Home Indicator -->
+        <div class="home-indicator"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
